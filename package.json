@@ -1,0 +1,27 @@
+{
+  "name": "smartpos",
+  "version": "1.0.0",
+  "description": "Project SmartPOS - Hoang Long's First Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T1HL/SmartPOS.git"
+  },
+  "keywords": [
+    "nodejs",
+    "reactjs"
+  ],
+  "author": "Hoang Long",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/T1HL/SmartPOS/issues"
+  },
+  "homepage": "https://github.com/T1HL/SmartPOS#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
