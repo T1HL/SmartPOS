@@ -2,10 +2,11 @@
   "name": "smartpos",
   "version": "1.0.0",
   "description": "Project SmartPOS - Hoang Long's First Project",
-  "main": "server.js",
+  "main": "backend/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node backend/app.js",
+    "dev": "nodemon backend/app.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
   },
   "homepage": "https://github.com/T1HL/SmartPOS#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.11"
   }
 }
